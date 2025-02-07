@@ -129,23 +129,9 @@ img {
  ************************************************/
 
 
- @media screen and (min-width: 768px) and (max-width: 1160px){
+ @media screen and (max-width: 1160px){
     .container {
         width: 100%;
-        max-width: 1160px;
-    }
-
- }
-
-
-/***************************
-        TABLET
-****************************/
-
- @media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-        max-width: 768px;
     }
 
  }
@@ -160,30 +146,26 @@ img {
     h3{
         font-size: 2rem;
     }
-    .container{
-        width: 100%;
-        max-width: 480px;
-    }
 
     .row{
         flex-direction: column;
-        gap: 65px;
+        gap: 2.5rem;
     }
 
-    .lessons .col {
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
 
-    .steps .col {
-        width: 100%;
+    .steps, .why-us{
+        margin-bottom: 0;
     }
 
-    .why-us .col-left {
-        width: 100%;
+    .why-us{
+        padding-top: 3rem;
+        background-color: #222222;
     }
 
-    .why-us .col-right {
-        width: 100%;
+    .why-us h2{
+        font-size: 3 rem;
     }
-
  }
