@@ -134,9 +134,10 @@ img {
 ****************************/
 
  @media screen and (max-width: 768px) {
-    body{
-        background-color: red;
+    .container {
+        max-width: 768px;
     }
+
  }
 
 
