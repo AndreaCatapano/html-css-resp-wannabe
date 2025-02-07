@@ -146,7 +146,33 @@ img {
 ****************************/
 
  @media screen and (max-width: 480px) {
-    body{
-        background-color: yellow;
+
+    h3{
+        font-size: 2rem;
     }
+    .container{
+        max-width: 480px;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 65px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
  }
