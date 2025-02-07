@@ -129,12 +129,22 @@ img {
  ************************************************/
 
 
+ @media screen and (min-width: 768px) and (max-width: 1160px){
+    .container {
+        width: 100%;
+        max-width: 1160px;
+    }
+
+ }
+
+
 /***************************
         TABLET
 ****************************/
 
  @media screen and (max-width: 768px) {
     .container {
+        width: 100%;
         max-width: 768px;
     }
 
@@ -151,6 +161,7 @@ img {
         font-size: 2rem;
     }
     .container{
+        width: 100%;
         max-width: 480px;
     }
 
